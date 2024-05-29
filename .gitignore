@@ -1,6 +1,8 @@
 .idea
 *.iml
 personal-9894.md
+*.sh
+test.cpp
 
 # Targets Windows & Unix temporary files
 ~$*
