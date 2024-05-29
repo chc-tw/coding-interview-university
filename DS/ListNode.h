@@ -6,6 +6,7 @@ struct ListNode {
     ListNode *next;
     ListNode *prev;
     T value;
+    ListNode(){value=0; prev=nullptr; next=nullptr;}
     ListNode(T value) : value(value), next(nullptr), prev(nullptr) {}
 };
 
