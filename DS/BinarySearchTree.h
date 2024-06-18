@@ -1,7 +1,7 @@
 #ifndef BINARY_SEARCH_TREE_H_
 #define BINARY_SEARCH_TREE_H_
 
-#include "Node.h"
+#include "TreeNode.h"
 #include "BinaryTree.h"
 using namespace std;
 /*

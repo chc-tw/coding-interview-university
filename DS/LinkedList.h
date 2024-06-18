@@ -1,7 +1,7 @@
 #ifndef __LINKED_LIST_H__
 #define __LINKED_LIST_H__
 
-#include <ListNode.h>
+#include "ListNode.h"
 #include <vector>
 #include <stdexcept>
 
@@ -32,13 +32,13 @@ private:
 public:
     //Initialize
     LinkedList(){
-        head = new MyListNode<T>();
-        tail = new MyListNode<T>();
+        head = new ListNode<T>();
+        tail = new ListNode<T>();
         head->next = tail;
         tail->prev = head;
     }
     LinkedList( std::vector<T> *list){
-        int size = list.size();
+        int size = list->size();
         if(size == 0) return;
         
         ListNode<T> *cur = head;
